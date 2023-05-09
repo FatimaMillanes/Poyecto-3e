@@ -1,0 +1,831 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1683616640950186, "dur":357, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616640950547, "dur":46, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1683616640950625, "dur":13, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683616640950639, "dur":301, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1683616640950956, "dur":678, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616640951634, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649243909, "dur":521, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244430, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244466, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244468, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244481, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244482, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244489, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244490, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244497, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244498, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244505, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244506, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244512, "dur":30, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244542, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244552, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244554, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244560, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244561, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244566, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244567, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244571, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244572, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244577, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244578, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244584, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244585, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244590, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244591, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244596, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244597, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244602, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244603, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244609, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244616, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649244620, "dur":3302, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":0, "ts":1683616649247923, "dur":1341, "ph":"X", "name": "Tundra",  "args": { "detail":"SaveScanCache" }}
+,{ "pid":12345, "tid":1, "ts":1683616640951040, "dur":599, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683616640951640, "dur":10944, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683616640962593, "dur":613007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker Library/Bee/artifacts/Android/ManagedStripped" }}
+,{ "pid":12345, "tid":1, "ts":1683616641575606, "dur":131, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1683616641575895, "dur":6815953, "ph":"X", "name": "UnityLinker",  "args": { "detail":"Library/Bee/artifacts/Android/ManagedStripped" }}
+,{ "pid":12345, "tid":1, "ts":1683616648394563, "dur":849346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640951083, "dur":566, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640951650, "dur":452, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640952102, "dur":10489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640962593, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zztd_System2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640962597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640963014, "dur":238, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zztd_System2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640963255, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/m25f_System0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640963257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640963260, "dur":1266, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/m25f_System0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640964528, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/Android/zz99l/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":2, "ts":1683616640964529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640964639, "dur":161, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":2, "ts":1683616640964802, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm3.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640964805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640964808, "dur":269, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm3.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965079, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm4.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965084, "dur":223, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm4.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965309, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/m25f_System3.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965313, "dur":267, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/m25f_System3.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965582, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965588, "dur":298, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965888, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm5.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640965894, "dur":224, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm5.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966119, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/um7p_System0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966125, "dur":218, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/um7p_System0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966345, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/c2uw_Generic1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966350, "dur":229, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/c2uw_Generic1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966581, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/hsg2_OSX0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966583, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966585, "dur":238, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/hsg2_OSX0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966825, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/oi42_Posix1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640966840, "dur":159, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/oi42_Posix1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967001, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/oi42_Posix4.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967005, "dur":238, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/oi42_Posix4.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967245, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/gera_Win322.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967249, "dur":214, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gera_Win322.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967465, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/gera_Win324.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967468, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967471, "dur":228, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gera_Win324.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967701, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zep6_WinRT1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967703, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967705, "dur":129, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zep6_WinRT1.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967836, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/hjzh_utils2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640967839, "dur":161, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/hjzh_utils2.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968002, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968006, "dur":143, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968150, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zz8r_tests0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968154, "dur":182, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zz8r_tests0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968338, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/lyog_c-api0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968344, "dur":210, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/lyog_c-api0.lump.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1683616640968556, "dur":26845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/az5x_-api0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616640995404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616640995408, "dur":513495, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/az5x_-api0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616641509053, "dur":4191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/06z1_ests0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616641513249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616641513256, "dur":109754, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/06z1_ests0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616641623090, "dur":4286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/609m_e_vm0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616641627382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616641627389, "dur":1776964, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/609m_e_vm0.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616643404442, "dur":5294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ve7n_stem3.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616643409740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616643409748, "dur":1065727, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ve7n_stem3.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616644475564, "dur":2304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/m2pd_stem2.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616644477872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616644477904, "dur":794916, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/m2pd_stem2.lump.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645272895, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/q74u_huffman.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645273566, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616645273573, "dur":199771, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/q74u_huffman.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645473478, "dur":784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/shad_dictionary.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645474265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616645474272, "dur":301971, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/shad_dictionary.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645776347, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/dh9h_cketBridge.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645776921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616645776926, "dur":122653, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/dh9h_cketBridge.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645899703, "dur":1368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/xn9a_Properties.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616645901074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616645901079, "dur":126680, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/xn9a_Properties.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616646027898, "dur":529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ql4y_derFactory.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616646028430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616646028437, "dur":134848, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ql4y_derFactory.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616646163399, "dur":569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/b9wx_Evidence.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616646163971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616646163977, "dur":473840, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/b9wx_Evidence.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616646637961, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/izgj_imeHelpers.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616646639095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616646639101, "dur":754276, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/izgj_imeHelpers.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616647393513, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/k662_gzclose.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616647393740, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616647393751, "dur":128695, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/k662_gzclose.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616647522585, "dur":349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/rqot_t_two_pass.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616647522937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1683616647522943, "dur":1066973, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/rqot_t_two_pass.o" }}
+,{ "pid":12345, "tid":2, "ts":1683616648590005, "dur":653911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616640951059, "dur":583, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616640951644, "dur":420, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616640952064, "dur":10542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616640962607, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/rbuy_metadata2.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683616640962641, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616640971723, "dur":161, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/rbuy_metadata2.lump.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1683616640971886, "dur":9539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/qs8d_data2.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616640981427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616640981432, "dur":507523, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/qs8d_data2.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616641489044, "dur":7074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/jha0_s_os1.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616641496124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616641496131, "dur":1027235, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/jha0_s_os1.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616642523455, "dur":3210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/zci9_-api3.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616642526668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616642526674, "dur":858448, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zci9_-api3.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616643385234, "dur":2072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/fzee_stem0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616643387309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616643387316, "dur":577257, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/fzee_stem0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616643964672, "dur":2676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/p47t_in320.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616643967351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616643967360, "dur":151156, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/p47t_in320.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616644118621, "dur":4320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/gyzh_s_os0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616644122947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616644122954, "dur":1143187, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gyzh_s_os0.lump.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616645266229, "dur":997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/xlb9_references.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616645267230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616645267237, "dur":1880405, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/xlb9_references.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616647147769, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/xouq_uncompr.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616647147977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616647147984, "dur":138155, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/xouq_uncompr.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616647286268, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/v0bu_infback.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616647286575, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616647286581, "dur":318458, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/v0bu_infback.o" }}
+,{ "pid":12345, "tid":3, "ts":1683616647605143, "dur":6080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GuidGenerator D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid" }}
+,{ "pid":12345, "tid":3, "ts":1683616647611226, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616647611516, "dur":123617, "ph":"X", "name": "GuidGenerator",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid" }}
+,{ "pid":12345, "tid":3, "ts":1683616647735394, "dur":659197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1683616648394591, "dur":849320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616640951076, "dur":570, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616640951647, "dur":402, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616640952049, "dur":10555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616640962605, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/rbuy_metadata1.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683616640962643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616640971858, "dur":141, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/rbuy_metadata1.lump.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1683616640972001, "dur":21445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/n9xv_data1.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616640993448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616640993453, "dur":2665884, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/n9xv_data1.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616643659425, "dur":2666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/rewg_Mono0.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616643662094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616643662100, "dur":769369, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/rewg_Mono0.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616644431559, "dur":1404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/snic_in321.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616644432966, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616644432973, "dur":115031, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/snic_in321.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616644548090, "dur":1911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/1ngy_rity0.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616644550005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616644550014, "dur":518562, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/1ngy_rity0.lump.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616645068698, "dur":554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/4has_bit_cost.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616645069255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616645069262, "dur":204184, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/4has_bit_cost.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616645273545, "dur":2152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/bubh_decode.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616645275701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616645275707, "dur":1376637, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/bubh_decode.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616646652468, "dur":899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/yphz_imeImports.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616646653370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616646653377, "dur":757903, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yphz_imeImports.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616647411390, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/e7rj_crc32.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616647411804, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616647411812, "dur":230476, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/e7rj_crc32.o" }}
+,{ "pid":12345, "tid":4, "ts":1683616647642418, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683616647642426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616647642450, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1683616647643296, "dur":751307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1683616648394603, "dur":849314, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616640951093, "dur":559, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616640951654, "dur":418, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616640952072, "dur":10523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616640962596, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/1f6t_System0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683616640962599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616640970276, "dur":125, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/1f6t_System0.lump.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1683616640970402, "dur":10128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/1idk_stem0.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1683616640980556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616640980562, "dur":659582, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/1idk_stem0.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1683616641640232, "dur":2835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/dhzu_tils1.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1683616641643070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616641643077, "dur":1276620, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/dhzu_tils1.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1683616642919781, "dur":3029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ksy9_e_vm6.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1683616642922815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1683616642922821, "dur":5513405, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ksy9_e_vm6.lump.o" }}
+,{ "pid":12345, "tid":5, "ts":1683616648436288, "dur":807631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640951114, "dur":542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640951656, "dur":10936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640962593, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/pjid_em.Runtime0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640962597, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640963016, "dur":201, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/pjid_em.Runtime0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640963220, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/gera_Win321.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640963222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640963226, "dur":1245, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gera_Win321.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640964473, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/Android/dqdht/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":6, "ts":1683616640964476, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640964581, "dur":166, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/Android/dqdht/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":6, "ts":1683616640964749, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/gera_Win320.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640964751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640964755, "dur":258, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gera_Win320.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965014, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/ywpc_Mono0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965019, "dur":226, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ywpc_Mono0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965247, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/m25f_System2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965251, "dur":288, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/m25f_System2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965541, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/c82r_System0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965548, "dur":238, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/c82r_System0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965787, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/7pm1_codegen0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965789, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965792, "dur":184, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/7pm1_codegen0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965978, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/bi23_vm-utils0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640965984, "dur":209, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/bi23_vm-utils0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966195, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zz8r_tests2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966197, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966199, "dur":163, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zz8r_tests2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966364, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/c2uw_Generic2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966370, "dur":236, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/c2uw_Generic2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966607, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/lyog_c-api3.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966609, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966612, "dur":299, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/lyog_c-api3.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966913, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/oi42_Posix2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640966919, "dur":232, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/oi42_Posix2.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967153, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zz8r_tests3.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967156, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967159, "dur":156, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zz8r_tests3.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967317, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/gera_Win323.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967321, "dur":228, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gera_Win323.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967550, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zep6_WinRT0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967553, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967556, "dur":212, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zep6_WinRT0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967769, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/hjzh_utils0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967771, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967773, "dur":191, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/hjzh_utils0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967966, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/Android/d8kzr/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":6, "ts":1683616640967968, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968049, "dur":126, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/Android/d8kzr/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968176, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/skns_os1.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968181, "dur":178, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/skns_os1.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968361, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/06jy_Android0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968367, "dur":190, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/06jy_Android0.lump.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1683616640968559, "dur":14933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/53qx_roid0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616640983495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616640983499, "dur":766214, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/53qx_roid0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616641749797, "dur":3284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/wsq5_tils2.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616641753085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616641753091, "dur":1020185, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/wsq5_tils2.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616642773364, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/68k2_ests2.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616642774415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616642774422, "dur":114412, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/68k2_ests2.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616642888928, "dur":4829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/4j2i_tils0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616642893761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616642893769, "dur":1248880, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/4j2i_tils0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616644142720, "dur":1112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/8gbt_adler32.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616644143835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616644143859, "dur":186862, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/8gbt_adler32.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616644330841, "dur":1773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/60uc_stem0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616644332618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616644332624, "dur":811301, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/60uc_stem0.lump.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616645144001, "dur":2091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/99ji_erences_hq.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616645146095, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616645146103, "dur":691411, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/99ji_erences_hq.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616645837628, "dur":890, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/7dpx_osixHelper.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616645838521, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616645838528, "dur":259296, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/7dpx_osixHelper.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646097938, "dur":1277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/n5bf_iveMethods.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646099218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616646099225, "dur":558934, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/n5bf_iveMethods.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646658299, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/yu3y_state.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646658561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616646658567, "dur":134175, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yu3y_state.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646792875, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ij9r_memory.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646793105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616646793127, "dur":159406, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ij9r_memory.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646952642, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/x16s_histogram.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616646952886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616646952893, "dur":163797, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/x16s_histogram.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616647116817, "dur":242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/37nb_zutil.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616647117062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616647117069, "dur":121353, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/37nb_zutil.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616647238564, "dur":924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/at77_inflate.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616647239491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616647239499, "dur":563982, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/at77_inflate.o" }}
+,{ "pid":12345, "tid":6, "ts":1683616647803584, "dur":591001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1683616648394585, "dur":849318, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616640951131, "dur":528, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616640951659, "dur":10931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616640962595, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zztd_System1.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683616640962600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616640970399, "dur":240, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zztd_System1.lump.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1683616640970641, "dur":25748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/jjfv_stem1.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616640996392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616640996396, "dur":1256058, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/jjfv_stem1.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616642252537, "dur":3955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/872c_osix4.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616642256497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616642256505, "dur":953006, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/872c_osix4.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616643209606, "dur":5287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/e60h_stem0.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616643214897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616643214905, "dur":1008711, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/e60h_stem0.lump.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616644223705, "dur":35069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/dqdht/4rur_gc.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616644258780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616644258803, "dur":2576817, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/dqdht/4rur_gc.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616646835720, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/tmq7_UnityTls.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616646836514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616646836521, "dur":734886, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/tmq7_UnityTls.o" }}
+,{ "pid":12345, "tid":7, "ts":1683616647571508, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/dummy-FeaturesChecked.txt_emel.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647571512, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616647571627, "dur":164, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/dummy-FeaturesChecked.txt_emel.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647571792, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/Android/Features/FeatureCheckList.txt" }}
+,{ "pid":12345, "tid":7, "ts":1683616647571795, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616647571885, "dur":174, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/Android/Features/FeatureCheckList.txt" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572060, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572079, "dur":158, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572238, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_hnd0.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572241, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572244, "dur":167, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/unity_app_guid_hnd0.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572413, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/build.gradle_4y6q.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572420, "dur":184, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/build.gradle_4y6q.info" }}
+,{ "pid":12345, "tid":7, "ts":1683616647572605, "dur":897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ActionGenerateProjectFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+5 others)" }}
+,{ "pid":12345, "tid":7, "ts":1683616647573521, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616647574155, "dur":179875, "ph":"X", "name": "ActionGenerateProjectFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+5 others)" }}
+,{ "pid":12345, "tid":7, "ts":1683616647754416, "dur":640172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1683616648394588, "dur":849327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616640951156, "dur":506, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616640951663, "dur":10937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616640962602, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/lwbl_System.Net0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683616640962635, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616640971437, "dur":153, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/lwbl_System.Net0.lump.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1683616640971592, "dur":21507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/yu5c_.Net0.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1683616640993102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616640993106, "dur":1281730, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yu5c_.Net0.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1683616642274918, "dur":4629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/5osu_osix3.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1683616642279550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616642279554, "dur":1541289, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/5osu_osix3.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1683616643820939, "dur":6169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/vemy_e_vm3.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1683616643827200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616643827208, "dur":4163961, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/vemy_e_vm3.lump.o" }}
+,{ "pid":12345, "tid":8, "ts":1683616647991242, "dur":403332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1683616648394575, "dur":849333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616640951173, "dur":493, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616640951666, "dur":10922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616640962593, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/yq0y_System0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683616640962602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616640970731, "dur":196, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yq0y_System0.lump.cpp" }}
+,{ "pid":12345, "tid":9, "ts":1683616640970929, "dur":16960, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/3y22_stem0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616640987892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616640987897, "dur":1050039, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/3y22_stem0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616642038018, "dur":2536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/spvt_inRT0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616642040558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616642040563, "dur":122089, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/spvt_inRT0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616642162744, "dur":5800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/4j9w_2cpp0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616642168547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616642168551, "dur":2601906, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/4j9w_2cpp0.lump.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616644770553, "dur":5429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/8hct_bit_stream.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616644775987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616644775997, "dur":608194, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/8hct_bit_stream.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645384338, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/m1ar_bit_reader.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645384592, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616645384600, "dur":120910, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/m1ar_bit_reader.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645505655, "dur":1499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/mnf6_getifaddrs.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645507157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616645507164, "dur":147000, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/mnf6_getifaddrs.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645654313, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/oz8f_sEmulation.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645654758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616645654765, "dur":120584, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/oz8f_sEmulation.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645775483, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/4zbf_Initialize.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645775796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616645775804, "dur":122992, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/4zbf_Initialize.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645898913, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/guwd_Semaphore.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616645899599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616645899605, "dur":560570, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/guwd_Semaphore.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616646460310, "dur":1185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/xoo0_onServices.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616646461498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616646461504, "dur":764486, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/xoo0_onServices.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616647226123, "dur":431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/fnp5_inftrees.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616647226557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616647226564, "dur":180827, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/fnp5_inftrees.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616647407512, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/e92p_deflate.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616647407903, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616647407911, "dur":450923, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/e92p_deflate.o" }}
+,{ "pid":12345, "tid":9, "ts":1683616647858949, "dur":535632, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1683616648394582, "dur":849332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616640951190, "dur":478, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616640951669, "dur":10928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616640962600, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/mvmv_System0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683616640962610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616640971160, "dur":157, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/mvmv_System0.lump.cpp" }}
+,{ "pid":12345, "tid":10, "ts":1683616640971319, "dur":10863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ew37_stem0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616640982185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616640982189, "dur":582113, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ew37_stem0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616641564385, "dur":6550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/wt7q_-api2.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616641570940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616641570947, "dur":951280, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/wt7q_-api2.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616642522327, "dur":2991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/gbgj_osix0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616642525322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616642525329, "dur":1156084, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gbgj_osix0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616643681493, "dur":5648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/wv0o_s_gc0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616643687146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616643687153, "dur":1908054, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/wv0o_s_gc0.lump.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616645595297, "dur":616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/gjtq_nterlocked.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616645595916, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616645595923, "dur":740255, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/gjtq_nterlocked.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616646336320, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/cgzp_ningHelper.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616646336851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616646336858, "dur":454848, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/cgzp_ningHelper.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616646791862, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/54dp_metablock.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616646792424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616646792431, "dur":546704, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/54dp_metablock.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616647339244, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/nj78_gzwrite.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616647339474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616647339481, "dur":198390, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/nj78_gzwrite.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616647537990, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/dqdht/d6ea_al_handler.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616647538218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616647538250, "dur":118643, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/dqdht/d6ea_al_handler.o" }}
+,{ "pid":12345, "tid":10, "ts":1683616647657021, "dur":737579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1683616648394600, "dur":849325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616640951207, "dur":464, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616640951671, "dur":10931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616640962603, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/rbuy_metadata0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683616640962638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616640971584, "dur":153, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/rbuy_metadata0.lump.cpp" }}
+,{ "pid":12345, "tid":11, "ts":1683616640971738, "dur":25352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/kqnd_data0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616640997092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616640997096, "dur":1547784, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/kqnd_data0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616642544969, "dur":2000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/b4pl__OSX0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616642546972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616642546978, "dur":133152, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/b4pl__OSX0.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616642680209, "dur":2830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/8zcc_eric1.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616642683042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616642683047, "dur":813287, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/8zcc_eric1.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616643496419, "dur":3278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/yxwg_e_vm4.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616643499701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616643499707, "dur":2904516, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yxwg_e_vm4.lump.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616646404314, "dur":573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/2muz_Context.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616646404890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616646404897, "dur":442308, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/2muz_Context.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616646847310, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/mxnc_teral_cost.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616646847519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616646847526, "dur":173286, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/mxnc_teral_cost.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647020946, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/hwvj_opy_encode.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647021261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647021268, "dur":254294, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/hwvj_opy_encode.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647275662, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/ozx3_inffast.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647275895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647275902, "dur":192060, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/ozx3_inffast.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647468084, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/hqcu_compress.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647468312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647468319, "dur":136757, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/hqcu_compress.o" }}
+,{ "pid":12345, "tid":11, "ts":1683616647605167, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647605278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647605740, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647607035, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png" }}
+,{ "pid":12345, "tid":11, "ts":1683616647607130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647607519, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png" }}
+,{ "pid":12345, "tid":11, "ts":1683616647607996, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java" }}
+,{ "pid":12345, "tid":11, "ts":1683616647608031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647608415, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java" }}
+,{ "pid":12345, "tid":11, "ts":1683616647608943, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647608981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647609073, "dur":465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647609570, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png" }}
+,{ "pid":12345, "tid":11, "ts":1683616647609682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647609727, "dur":486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png" }}
+,{ "pid":12345, "tid":11, "ts":1683616647610246, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" }}
+,{ "pid":12345, "tid":11, "ts":1683616647610340, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647610348, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" }}
+,{ "pid":12345, "tid":11, "ts":1683616647610839, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so" }}
+,{ "pid":12345, "tid":11, "ts":1683616647610873, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647611066, "dur":442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so" }}
+,{ "pid":12345, "tid":11, "ts":1683616647611543, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647611648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647611743, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/ids.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647612227, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647612230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647612247, "dur":188, "ph":"X", "name": "WriteText",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647612436, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647612584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647612592, "dur":470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647613101, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647613214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647613332, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v21/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647613840, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647613941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647614052, "dur":467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647614555, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647614662, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647614777, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647615309, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647615425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647615542, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647616071, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647616175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647616195, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647616778, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647616785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647616913, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values-v28/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647617470, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647617477, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647617499, "dur":478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647618015, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1683616647618021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647618064, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1683616647619881, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt" }}
+,{ "pid":12345, "tid":11, "ts":1683616647619979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647619988, "dur":452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt" }}
+,{ "pid":12345, "tid":11, "ts":1683616647620468, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647620490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647620599, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml" }}
+,{ "pid":12345, "tid":11, "ts":1683616647621121, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unityandroidpermissions.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647621139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647621157, "dur":425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unityandroidpermissions.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647621591, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/UltraleapOpenXRUnity.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647621604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647621611, "dur":431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/UltraleapOpenXRUnity.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647622054, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/UltraleapTrackingServiceBinder.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647622070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647622076, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/UltraleapTrackingServiceBinder.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647622525, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/GfxPluginCardboard.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647622540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647622547, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/GfxPluginCardboard.aar" }}
+,{ "pid":12345, "tid":11, "ts":1683616647623164, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libLeapC.so" }}
+,{ "pid":12345, "tid":11, "ts":1683616647623178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647623226, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libLeapC.so" }}
+,{ "pid":12345, "tid":11, "ts":1683616647625797, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/UnitySubsystems/UnityARCore/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647625805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647626115, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/UnitySubsystems/UnityARCore/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647626612, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/UnitySubsystems/GfxPluginCardboard/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647626619, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647626753, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/UnitySubsystems/GfxPluginCardboard/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647627239, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647627243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647627253, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647627750, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647627755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647627764, "dur":497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1683616647628273, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d" }}
+,{ "pid":12345, "tid":11, "ts":1683616647628281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616647628289, "dur":34823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/ULSA/Perfect Fit 2/PerfectFit/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d" }}
+,{ "pid":12345, "tid":11, "ts":1683616647663127, "dur":731470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1683616648394597, "dur":849309, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616640951222, "dur":452, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616640951674, "dur":10922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616640962597, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/s7dj_System0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683616640962601, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616640970608, "dur":231, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/s7dj_System0.lump.cpp" }}
+,{ "pid":12345, "tid":12, "ts":1683616640970842, "dur":27050, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/6vj7_stem0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616640997895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616640997899, "dur":978007, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/6vj7_stem0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616641975988, "dur":4506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/8i8f_yPAL0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616641980498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616641980526, "dur":578598, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/8i8f_yPAL0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616642559197, "dur":5588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/zjjw_umin0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616642564790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616642564796, "dur":136590, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zjjw_umin0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616642701484, "dur":2646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/3pak_ests1.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616642704134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616642704141, "dur":110717, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/3pak_ests1.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616642814930, "dur":6366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/z3nq_stem0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616642821302, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616642821312, "dur":499675, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/z3nq_stem0.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616643321080, "dur":3640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/svbg_e_vm2.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616643324726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616643324733, "dur":2451894, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/svbg_e_vm2.lump.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616645776707, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/1l3s_gzlib.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616645777172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616645777176, "dur":229528, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/1l3s_gzlib.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616646006822, "dur":1360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/yo5i_Dns.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616646008186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616646008193, "dur":770302, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yo5i_Dns.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616646778615, "dur":980, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/c77n_tatic_dict.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616646779598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616646779605, "dur":881868, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/c77n_tatic_dict.o" }}
+,{ "pid":12345, "tid":12, "ts":1683616647661610, "dur":732984, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1683616648394595, "dur":849327, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616640951234, "dur":442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616640951676, "dur":10913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616640962593, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zztd_System0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683616640962605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616640971041, "dur":287, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zztd_System0.lump.cpp" }}
+,{ "pid":12345, "tid":13, "ts":1683616640971330, "dur":22132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/g04c_stem0.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616640993465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616640993469, "dur":1051433, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/g04c_stem0.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616642044978, "dur":3892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/yp3c_in323.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616642048874, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616642048880, "dur":117271, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/yp3c_in323.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616642166235, "dur":4069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/v6su_in322.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616642170307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616642170312, "dur":133492, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/v6su_in322.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616642303886, "dur":4027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/zm7t_osix1.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616642307919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616642307926, "dur":885256, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zm7t_osix1.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616643193274, "dur":6729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/528l_egen0.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616643200008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616643200015, "dur":1084324, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/528l_egen0.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616644284428, "dur":3214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/pc1x_e_vm1.lump.o" }}
+,{ "pid":12345, "tid":13, "ts":1683616644287646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1683616644287654, "dur":4956166, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/pc1x_e_vm1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616640951254, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640951679, "dur":10915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640962595, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/wtoc_m.Security0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640962598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640963110, "dur":123, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/wtoc_m.Security0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640963235, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640963237, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640963239, "dur":1323, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964564, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/ziny_libil2cpp0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964566, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964569, "dur":158, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ziny_libil2cpp0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964728, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/skns_os0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964746, "dur":228, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/skns_os0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964976, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/c6us_gc0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964978, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640964980, "dur":229, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/c6us_gc0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965211, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/m25f_System1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965216, "dur":337, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/m25f_System1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965555, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/1ns0_System0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965557, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965560, "dur":329, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/1ns0_System0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965891, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/36ze_vm6.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640965898, "dur":240, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/36ze_vm6.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966140, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/zz8r_tests1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966142, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966144, "dur":280, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/zz8r_tests1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966426, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/6fq6_Lumin0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966431, "dur":218, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/6fq6_Lumin0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966651, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/oi42_Posix0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966654, "dur":269, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/oi42_Posix0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966925, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/oi42_Posix3.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966927, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640966930, "dur":310, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/oi42_Posix3.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967242, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/Android/87lik/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967245, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967248, "dur":240, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967491, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/du9u_LibraryPAL0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967497, "dur":274, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/du9u_LibraryPAL0.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967772, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/hjzh_utils1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640967776, "dur":269, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/hjzh_utils1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968046, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/lyog_c-api2.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968049, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968052, "dur":195, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/lyog_c-api2.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968249, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/lyog_c-api1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968253, "dur":160, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/lyog_c-api1.lump.cpp" }}
+,{ "pid":12345, "tid":14, "ts":1683616640968414, "dur":15151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/tax8_-api1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616640983568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616640983572, "dur":890995, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/tax8_-api1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616641874644, "dur":5990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/v85b_inRT1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616641880638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616641880645, "dur":161704, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/v85b_inRT1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616642042421, "dur":3028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/h1un_in324.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616642045452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616642045457, "dur":121603, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/h1un_in324.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616642167151, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/pkcd_ests3.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616642168232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616642168238, "dur":107063, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/pkcd_ests3.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616642275383, "dur":2981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/25hc_osix2.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616642278390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616642278397, "dur":1129632, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/25hc_osix2.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616643408122, "dur":4683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/pcmn_stem1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616643412809, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616643412816, "dur":1226115, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/pcmn_stem1.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616644639011, "dur":2390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/6xp2_time0.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616644641405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616644641411, "dur":1367921, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/6xp2_time0.lump.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616646009407, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ntaw_temWatcher.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616646010001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616646010008, "dur":451144, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ntaw_temWatcher.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616646461250, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ckux_ngServices.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616646461831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616646461835, "dur":432632, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ckux_ngServices.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616646894585, "dur":443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/brf3_Interop.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616646895031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616646895036, "dur":164873, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/brf3_Interop.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616647060020, "dur":1104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/bmww_encode.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616647061127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616647061133, "dur":975406, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/bmww_encode.o" }}
+,{ "pid":12345, "tid":14, "ts":1683616648036638, "dur":357933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1683616648394571, "dur":849334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616640951269, "dur":413, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616640951682, "dur":10911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616640962598, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/7qdg_e.Remoting0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683616640962603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616640970915, "dur":146, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/7qdg_e.Remoting0.lump.cpp" }}
+,{ "pid":12345, "tid":15, "ts":1683616640971063, "dur":25096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/wwmy_ting0.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616640996162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616640996166, "dur":758203, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/wwmy_ting0.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616641754436, "dur":1026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ayoc_tils0.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616641755465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616641755469, "dur":923603, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ayoc_tils0.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616642679155, "dur":2436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/bjnu_eric2.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616642681594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616642681601, "dur":488479, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/bjnu_eric2.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616643170201, "dur":4304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/h9nr_e_vm5.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616643174509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616643174516, "dur":1610874, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/h9nr_e_vm5.lump.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616644785482, "dur":1095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/ee68_k_splitter.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616644786580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616644786587, "dur":938896, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/ee68_k_splitter.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616645725586, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/aaaj_ThreadImpl.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616645725839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616645725846, "dur":131346, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/aaaj_ThreadImpl.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616645857310, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/blhn_oryMapImpl.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616645858198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616645858205, "dur":903431, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/blhn_oryMapImpl.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616646761781, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/12438370367218343051.rsp" }}
+,{ "pid":12345, "tid":15, "ts":1683616646761791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616646761959, "dur":352, "ph":"X", "name": "WriteResponseFile",  "args": { "detail":"Library/Bee/artifacts/rsp/12438370367218343051.rsp" }}
+,{ "pid":12345, "tid":15, "ts":1683616646762313, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/x4b7_utf8_util.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616646762778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616646762784, "dur":130053, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/x4b7_utf8_util.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616646892942, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/t1hz_iveMethods.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616646893378, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616646893386, "dur":449765, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/t1hz_iveMethods.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616647343280, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/wcu3_gzread.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616647343598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616647343605, "dur":225556, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/wcu3_gzread.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616647569271, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/3hx7_cluster.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616647569548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616647569555, "dur":343205, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/3hx7_cluster.o" }}
+,{ "pid":12345, "tid":15, "ts":1683616647912867, "dur":481711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1683616648394578, "dur":849326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616640951313, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616640951684, "dur":10923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616640962607, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"MakeLump Library/Bee/artifacts/Android/87lik/6lh6_ThreadPool0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683616640962610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616640971296, "dur":221, "ph":"X", "name": "MakeLump",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/6lh6_ThreadPool0.lump.cpp" }}
+,{ "pid":12345, "tid":16, "ts":1683616640971519, "dur":20695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/7i83_Pool0.lump.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616640992218, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616640992224, "dur":2461259, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/7i83_Pool0.lump.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616643453556, "dur":3555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/svw5_stem2.lump.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616643457115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616643457122, "dur":2766557, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/svw5_stem2.lump.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646223748, "dur":963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/kp5i_ceProvider.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646224714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616646224721, "dur":144117, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/kp5i_ceProvider.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646368960, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/txuc_RealProxy.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646369560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616646369567, "dur":473505, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/txuc_RealProxy.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646843196, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/s51x_ersistence.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646843699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616646843706, "dur":135703, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/s51x_ersistence.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646979541, "dur":1321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/km71_i-debugger.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616646980866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616646980875, "dur":104636, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/km71_i-debugger.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616647085650, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/4cx1_onary_hash.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616647086034, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616647086042, "dur":139944, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/4cx1_onary_hash.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616647226118, "dur":688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/zz99l/s0ih_trees.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616647226808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616647226812, "dur":328114, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/zz99l/s0ih_trees.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616647555032, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_Android_arm64 Library/Bee/artifacts/Android/87lik/6p1e_s_fragment.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616647555359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616647555365, "dur":776144, "ph":"X", "name": "C_Android_arm64",  "args": { "detail":"Library/Bee/artifacts/Android/87lik/6p1e_s_fragment.o" }}
+,{ "pid":12345, "tid":16, "ts":1683616648331638, "dur":62929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1683616648394567, "dur":849342, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1683616649250577, "dur":1581, "ph":"X", "name": "ProfilerWriteOutput" }
+,
